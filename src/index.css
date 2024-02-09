@@ -4,9 +4,9 @@
 
 .main {
   width: 100%;
-  height: 100vh;
-  background-image: url('/public/bg.png');
+  height: 100vh !important;
+  /* background-image: url('/public/bg.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }

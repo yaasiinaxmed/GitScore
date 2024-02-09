@@ -4,7 +4,7 @@ import GitScore from './../assets/GitScore.svg'
 function Cover() {
   return (
     <div className='mt-[5rem] p-3 w-full flex flex-col gap-3 items-center justify-center'>
-       <figure className='w-[22rem]'>
+       <figure className='w-[12rem]'>
         <img src={GitScore} alt="GitScore" className='w-full'/>
       </figure>
       <div className='flex flex-col items-center justify-center gap-2'>

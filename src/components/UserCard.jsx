@@ -5,7 +5,7 @@ import three from './../assets/3.svg'
 
 function UserCard({ user }) {
   return (
-    <div className='flex items-center justify-between w-full lg:w-[800px] p2 p-4 rounded-xl shadow-[0px_0px_4px_rgba(0,0,0,0.1)]'>
+    <a href={`https://github.com/${user.login}`} target='_blank' className='flex items-center justify-between w-full lg:w-[800px] p2 p-4 rounded-xl hover:border-2 hover:border-[#338AF3] shadow-[0px_0px_4px_rgba(0,0,0,0.1)] hover:shadow-none hover:bg-[#3389f307] transition-all'>
       {/* user info */}
       <div className='flex items-center justify-center gapTwo gap-4 '>
         {/* rank number */}
@@ -45,7 +45,7 @@ function UserCard({ user }) {
       <div>
         <h3 className='font-medium text-sm'>CTS {user.contributions}</h3>
       </div>
-    </div>
+    </a>
   )
 }
 

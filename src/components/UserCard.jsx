@@ -5,9 +5,9 @@ import three from './../assets/3.svg'
 
 function UserCard({ user }) {
   return (
-    <div className='flex items-center justify-between w-[800px] p-4 rounded-xl shadow-[0px_0px_4px_rgba(0,0,0,0.1)]'>
+    <div className='flex items-center justify-between w-full lg:w-[800px] p2 p-4 rounded-xl shadow-[0px_0px_4px_rgba(0,0,0,0.1)]'>
       {/* user info */}
-      <div className='flex items-center justify-center gap-4 '>
+      <div className='flex items-center justify-center gapTwo gap-4 '>
         {/* rank number */}
         <div>
           {user.rank === 1 && (
@@ -32,8 +32,8 @@ function UserCard({ user }) {
           )}
         </div>
         {/* user */}
-        <div className='flex items-center gap-3'>
-          <figure className='w-[50px] rounded-full '>
+        <div className='flex items-center gapTwo2 gap-3'>
+          <figure className='avatar w-[50px] rounded-full '>
             <img src={user.avatarUrl} alt="GitScore" className='w-full rounded-full' />
           </figure>
           <div>
@@ -43,7 +43,7 @@ function UserCard({ user }) {
         </div>
       </div>
       <div>
-        <h3 className='font-medium'>CTS {user.contributions}</h3>
+        <h3 className='font-medium text-sm'>CTS {user.contributions}</h3>
       </div>
     </div>
   )

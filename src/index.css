@@ -10,3 +10,33 @@
   background-repeat: no-repeat;
   background-size: cover; */
 }
+
+@media screen and (max-width: 400px) {
+  .gapTwo {
+   gap: 0.4rem
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .gapTwo {
+   gap: 0.2rem
+  }
+
+  .p2 {
+    padding: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .gapTwo {
+   gap: 0.2rem
+  }
+
+  .gapTwo2 {
+    gap: 0.3rem;
+  }
+
+  .avatar {
+    width: 40px;
+  }
+}

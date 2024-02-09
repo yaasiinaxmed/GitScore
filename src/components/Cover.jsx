@@ -8,7 +8,7 @@ function Cover() {
         <img src={GitScore} alt="GitScore" className='w-full'/>
       </figure>
       <div className='flex flex-col items-center justify-center gap-2'>
-        <h2 className='text-3xl font-bold text-gray-600'>Top Public Contributors</h2>
+        <h2 className='text-xl sm:text-3xl font-bold text-gray-600'>Top Public Contributors</h2>
         <p>30 jan - 5 Feb</p>
       </div>
     </div>

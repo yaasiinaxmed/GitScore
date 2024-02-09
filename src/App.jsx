@@ -1,13 +1,16 @@
 import React from 'react'
+import Header from './components/Header'
+import Cover from './components/Cover'
+import Users from './components/Users'
 
 function App() {
 
   return (
-    <>
-     <h1 className="text-3xl font-bold">
-      Hello GitScore!
-    </h1>
-    </>
+    <div className='main'>
+     <Header/>
+     <Cover/>
+     <Users/>
+    </div>
   )
 }
 

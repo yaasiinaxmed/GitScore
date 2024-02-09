@@ -9,7 +9,7 @@ function Cover() {
       </figure>
       <div className='flex flex-col items-center justify-center gap-2'>
         <h2 className='text-xl sm:text-3xl font-bold text-gray-600'>Top Public Contributors</h2>
-        <p>30 jan - 5 Feb</p>
+        <p>2022 - 2023</p>
       </div>
     </div>
   )
